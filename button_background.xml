@@ -1,5 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/black"/>
-    <corners android:radius="45dp"/>
-</shape>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/light_gray">
+
+    <item>
+        <shape>
+            <solid android:color="@color/shade_of_purple"/>
+            <corners android:radius="45dp"/>
+        </shape>
+    </item>
+</ripple>
+
